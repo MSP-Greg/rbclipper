@@ -21,8 +21,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project         = "clipper"
 
   s.add_development_dependency "bundler", "~> 1.5"
-  s.files        = Dir["**/clipper/*", "LICENSE*", "Rakefile", "Gemfile", "Changelog", "*.md"]
-  s.executables  = Dir["**/clipper/*.so"]
+  s.files        = Dir["lib/clipper.rb", "**/clipper/*", "LICENSE*", "Rakefile", "Gemfile", "Changelog", "*.md"]
   s.require_path = 'lib'
   
   s.extensions = "ext/clipper/extconf.rb"
